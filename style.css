@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-wrap {
+    margin: 40px 50px;
+}
+
+.nav-wrap, .nav-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu{
+    width: 457px;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 218px;
+}
+
+.contact {
+    padding: 16px;
+}
+
+.search-icon {
+    padding: 10px 15px;
+}
+.maindiv{
+    display: flex;
+    margin: 50px 50px;
+}
+.contentdiv{
+margin-top: 80px;
+}
+.say{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #658e75;
+}
+.your{
+    font-family: 'Playfair Display', serif;
+    font-size: 75px;
+}
+.advertising{
+    font-weight: 400;
+}
+.buttons{
+margin-top:50px ;
+}
+.getbttn{
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+.bttn{
+    padding: 20px 80px;
+    position: relative;
+    left: -160px;
+    bottom: -5px;
+    z-index: -1;
+    background-color: white;
+}
+.heroimg{
+    width: 921px;
+    height: 751px;
+}
