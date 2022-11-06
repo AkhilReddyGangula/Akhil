@@ -6,21 +6,24 @@ body {
     margin: 40px 50px;
 }
 
-.nav-wrap, .nav-menu {
+.nav-wrap,
+.nav-menu {
     display: flex;
     justify-content: space-between;
 }
 
-.nav-menu{
+.nav-menu {
     width: 457px;
 }
 
-li{
+li {
     list-style: none;
+
 }
 
-a {
+.nav-txt{
     text-decoration: none;
+    color: black;
 }
 
 .nav-button {
@@ -31,39 +34,52 @@ a {
 
 .contact {
     padding: 16px;
+    background-color: #EA4C89;
+    border-color: #EA4C89;
+    color: white;
 }
 
 .search-icon {
     padding: 10px 15px;
 }
-.maindiv{
+
+.maindiv {
     display: flex;
     margin: 50px 50px;
 }
-.contentdiv{
-margin-top: 80px;
+
+.contentdiv {
+    margin-top: 80px;
 }
-.say{
+
+.say {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     color: #658e75;
 }
-.your{
+
+.your {
     font-family: 'Playfair Display', serif;
     font-size: 75px;
 }
-.advertising{
+
+.advertising {
     font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
-.buttons{
-margin-top:50px ;
+
+.buttons {
+    margin-top: 50px;
 }
-.getbttn{
+
+.getbttn {
     padding: 15px;
-    background-color: black;
+    background-color: #EA4C89;
+    border-color: #EA4C89;
     color: white;
 }
-.bttn{
+
+.bttn {
     padding: 20px 80px;
     position: relative;
     left: -160px;
@@ -71,7 +87,82 @@ margin-top:50px ;
     z-index: -1;
     background-color: white;
 }
-.heroimg{
+
+.featured {
+    margin-top: 94px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.mainsecimg {
+    display: flex;
+    padding-left: 0px;
+    width: 460px;
+}
+
+.assetsimg {
+    width: 120px;
+    height: 80px;
+}
+
+.heroimg {
     width: 921px;
     height: 751px;
+}
+
+.sec2 {
+    display: flex;
+    padding: 51px;
+    justify-content: space-between;
+}
+
+.our {}
+
+.more {
+    display: flex;
+}
+
+.discover {
+    color: #EA4C89;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agency {}
+
+.sec2bx {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.compass {
+    width: 82px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+    position: relative;
+    left: 57px;
+    bottom: 12px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+
+.secbxs {
+    width: 322px;
+    height: 218px;
+    padding: 60px 20px 20px;
+    background-color: #EA4C89;
+    color: white;
+}
+
+.etr {
+    font-family: 'Playfair Display', serif;
+}
+.an{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
